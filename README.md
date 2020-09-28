@@ -1,3 +1,3 @@
 # Event Booker
 
-This simple app was crated to practice building apps with Node, GraphQL, MongoDB and React.
+This simple app for booking events built with Node, GraphQL, MongoDB and React.
