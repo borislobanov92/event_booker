@@ -1,3 +1,3 @@
 # Event Booker
 
-A simple app for booking events built with Node, GraphQL, MongoDB and React.
+Backend for an event booking app built with Node, GraphQL, MongoDB.
