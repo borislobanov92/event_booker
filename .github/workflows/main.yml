@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Coverage check [API]
+        uses: devmasx/coverage-check-action@v1.2.0
+        with:
+          type: lcov
+          result_path: packages/api/coverage/lcov.info
+          min_coverage: 70
+          token: ${{ github.token }}
